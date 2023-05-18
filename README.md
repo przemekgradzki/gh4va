@@ -30,5 +30,24 @@
   * [Tworzenie repozytorium](https://docs.github.com/en/get-started/quickstart/hello-world#creating-a-repository)
   * [Tworzenie gałęzi](https://docs.github.com/en/get-started/quickstart/hello-world#creating-a-branch)
   * [Wprowadzanie i zatwierdzanie zmian](https://docs.github.com/en/get-started/quickstart/hello-world#making-and-committing-changes)
+    ```bash
+    # pobranie aktualnej wersji zdalnego repozytorium do lokalnego repozytorium
+    git pull
+
+    # właściwe wprowadzenie zmian w plikach
+    # ...
+
+    # sprawdzenie zmian
+    git diff
+
+    # dodawanie zawartości pliku do indeksu
+    git add .
+
+    # Rejestrowanie zmian w lokalym repozytorium
+    git commit -s -m "Dodanie poleceń opisujących wprowadzanie i zatwierdzanie zmian"
+
+    # wysłanie aktualnej wersji lokalnego repozytorium do zdalnego repozytorium
+    git push
+    ```
   * [Otwieranie "pull request"](https://docs.github.com/en/get-started/quickstart/hello-world#opening-a-pull-request)
   * [Scalanie "pull request"](https://docs.github.com/en/get-started/quickstart/hello-world#merging-your-pull-request)
