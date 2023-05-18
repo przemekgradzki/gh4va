@@ -50,4 +50,16 @@
     git push
     ```
   * [Otwieranie "pull request"](https://docs.github.com/en/get-started/quickstart/hello-world#opening-a-pull-request)
+
+    ```bash
+    # przełączenie na nową gałąź "szkolenie"
+    git checkout -b szkolenie
+
+    git add .
+    git commit -s -m "Dodanie poleceń opisujących otwieranie pull request"
+
+    # utworzenie "pull request"
+    gh pr create --title "Szkolenie GIT" --body "Opis pull request"
+
+    ```
   * [Scalanie "pull request"](https://docs.github.com/en/get-started/quickstart/hello-world#merging-your-pull-request)
